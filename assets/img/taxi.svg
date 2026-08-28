@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" fill="none" aria-hidden="true">
+  <defs>
+    <pattern id="chk" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#f4f4f4"/>
+      <rect width="5" height="5" fill="#1a1a1a"/>
+      <rect x="5" y="5" width="5" height="5" fill="#1a1a1a"/>
+    </pattern>
+    <linearGradient id="paint" x1="70" y1="80" x2="540" y2="210">
+      <stop stop-color="#FFB347"/>
+      <stop offset=".4" stop-color="#FF9900"/>
+      <stop offset="1" stop-color="#E07000"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="220" y1="90" x2="220" y2="145">
+      <stop stop-color="#c8eefc"/>
+      <stop offset="1" stop-color="#6aa8c8"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse class="taxi-shadow" cx="300" cy="246" rx="230" ry="9" fill="#1a1a1a" opacity=".3"/>
+
+  <g class="taxi-body">
+    <!-- lower body -->
+    <path d="M78 168c0-18 10-32 32-40 22-8 62-14 118-16h168c48 2 86 10 110 22 18 10 28 22 30 36 2 12-4 24-18 28H94c-12 0-16-10-16-30Z" fill="url(#paint)" stroke="#c45e00" stroke-width="3" stroke-linejoin="round"/>
+    <!-- cabin -->
+    <path d="M168 114c28-28 62-40 118-42 62-2 118 8 158 36l22 24H190l-22-18Z" fill="url(#paint)" stroke="#c45e00" stroke-width="3" stroke-linejoin="round"/>
+    <!-- windows -->
+    <path d="M186 118c24-20 54-30 100-32 50-2 98 8 132 28l8 10H198l-12-6Z" fill="url(#glass)" stroke="#4a7a94" stroke-width="2"/>
+    <path d="M286 88v46M372 92v42" stroke="#fff" stroke-opacity=".5" stroke-width="3"/>
+    <path d="M210 108l22 10M400 112l20 8" stroke="#fff" stroke-opacity=".7" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- checker on the doors -->
+    <rect x="198" y="154" width="88" height="28" rx="3" fill="url(#chk)" stroke="#1a1a1a" stroke-width="1"/>
+    <rect x="302" y="154" width="72" height="28" rx="3" fill="url(#chk)" stroke="#1a1a1a" stroke-width="1"/>
+    <!-- door split + handle -->
+    <path d="M292 128v62" stroke="#c45e00" stroke-width="2.2" opacity=".6"/>
+    <rect x="308" y="140" width="20" height="5" rx="2.5" fill="#2c2c2c"/>
+    <!-- roof taxi lamp -->
+    <rect x="248" y="58" width="56" height="26" rx="7" fill="#ff9900" stroke="#c45e00" stroke-width="2"/>
+    <rect x="256" y="64" width="40" height="14" rx="3" fill="#1a1a1a"/>
+    <text x="276" y="75" text-anchor="middle" fill="#ffd000" font-size="9" font-family="Arial,sans-serif" font-weight="700">TAXI</text>
+    <!-- headlight / tail -->
+    <ellipse cx="524" cy="158" rx="12" ry="10" fill="#fff4c4" stroke="#e8d070" stroke-width="1.6"/>
+    <ellipse cx="524" cy="158" rx="5" ry="4" fill="#fff"/>
+    <rect x="82" y="150" width="14" height="12" rx="2" fill="#e23b32"/>
+    <!-- bumper -->
+    <path d="M70 176h28c2 10 6 16 14 18H70v-18Z" fill="#d8d8d8" stroke="#9a9a9a" stroke-width="1.4"/>
+    <path d="M518 176h28v16h-16c-8-2-12-8-12-16Z" fill="#d8d8d8" stroke="#9a9a9a" stroke-width="1.4"/>
+  </g>
+
+  <g transform="translate(168 200)">
+    <g class="wheel">
+      <circle r="38" fill="#1a1a1a"/>
+      <circle r="26" fill="#d5d8de"/>
+      <circle r="22" fill="#c4c8ce"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff" transform="rotate(72)"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff" transform="rotate(144)"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff" transform="rotate(216)"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff" transform="rotate(288)"/>
+      <circle r="8" fill="#6e7278"/>
+      <circle r="3.5" fill="#cfd2d6"/>
+    </g>
+  </g>
+  <g transform="translate(428 200)">
+    <g class="wheel">
+      <circle r="38" fill="#1a1a1a"/>
+      <circle r="26" fill="#d5d8de"/>
+      <circle r="22" fill="#c4c8ce"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff" transform="rotate(72)"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff" transform="rotate(144)"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff" transform="rotate(216)"/>
+      <rect x="-4" y="-22" width="8" height="14" rx="3" fill="#fff" transform="rotate(288)"/>
+      <circle r="8" fill="#6e7278"/>
+      <circle r="3.5" fill="#cfd2d6"/>
+    </g>
+  </g>
+</svg>
