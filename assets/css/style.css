@@ -2613,9 +2613,22 @@ table.rates .rupee {
     display: none;
   }
 
+  .topbar__list .topbar__hours,
+  .topbar .socials {
+    display: none;
+  }
+
   .topbar__in {
     justify-content: center;
     text-align: center;
+    min-height: 38px;
+    flex-wrap: nowrap;
+  }
+
+  .topbar__list {
+    justify-content: center;
+    gap: 10px 16px;
+    width: 100%;
   }
 
   .mobile-bar {
