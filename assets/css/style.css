@@ -2914,9 +2914,7 @@ table.rates .rupee {
   }
 
   .hero::after {
-    opacity: 0.14;
-    width: 46%;
-    right: -14%;
+    content: none;
   }
 
   .hero__incoming {
