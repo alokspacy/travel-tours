@@ -2744,16 +2744,17 @@ table.rates .rupee {
   }
 
   .mobile-bar {
-    display: flex;
-    padding-bottom: calc(9px + env(safe-area-inset-bottom));
+    display: none;
   }
 
   .fab {
-    bottom: 78px;
+    display: flex;
+    right: 14px;
+    bottom: 18px;
   }
 
   body {
-    padding-bottom: calc(74px + env(safe-area-inset-bottom));
+    padding-bottom: 0;
   }
 
   .quickbook {
@@ -2962,6 +2963,21 @@ table.rates .rupee {
   .mobile-two-up .card__body p,
   .mobile-two-up .farerows {
     display: none;
+  }
+
+  .mobile-two-up .farerows {
+    display: block;
+    margin: 6px 0 10px;
+  }
+
+  .mobile-two-up .farerows li {
+    padding: 5px 0;
+    font-size: 0.72rem;
+    gap: 8px;
+  }
+
+  .mobile-two-up .farerows b {
+    font-size: 0.78rem;
   }
 
   .mobile-two-up .card__foot {
